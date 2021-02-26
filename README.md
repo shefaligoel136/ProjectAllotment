@@ -1,6 +1,7 @@
 # ProjectAllotment
 
 To access client use : npm start
+
 To access server use : npm run devStart
 
 ### Database
