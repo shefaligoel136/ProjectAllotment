@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+input, button{
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  margin: 5px;
+}
+
+h6{
+  text-align: center;
+}
+
+.project{
+  border : 1px solid black;
+  margin: 3px;
+  margin-top: 3%;
+}
+
+.project-div{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 9%;
+}
+
+.card-header{
+  background-color: black;
+  color: white;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+.card-body{
+  text-align: left;
+}
+
+.card-title{
+  text-align: center;
+}
+ 
+.btn{
+  height: 50px;
+  width: 200px;
+}
+
+.container img{
+  width: 120%;
+  margin-left: -10%;
+  opacity:0.5;
+  /* padding: auto; */
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  font-family: Alfa Slab One;
+}
+
+.goto{
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  font-size: 50px;
+  font-family: Alfa Slab One;
+}
+
+
+
+.centered:hover{
+  text-decoration: underline;
+}
+
